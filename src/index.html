@@ -1,42 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <!--Neat Fonts to use for Website-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;800&family=Sen:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!--Load CSS Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="./src/css/main.css">
 </head>
+
 <body>
-    <nav role="navigation">
-        <ul id="nav-bar">
-            <li class="nav-item">Home</li>
-            <li class="nav-item">Stalk Me</li>
-            <li class="nav-item">Portfolio</li>
-        </ul>
-    </nav>
+    <!--Dat Phuckin' Prelo4d3r Anim-->
+
     <main role="main">
         <header role="banner">
-            <h1 id="hero">Hero</h1>
-            <div class="hero-overlay">
-            <img src="./images/DrummingFastPic.jpg" height="642" width="442">
-            </div>
         </header>
-        <section>
-            Section 1
+        <!--Hero Video, Overlay, Nav Section-->
+        <section class="landing-wrapper">
+            <div class="hero-container">
+                <video class="home-bg-video" poster="/video/Solo.jpg" autoplay muted loop>
+                    <source src="../video/StudioWestFast.mp4" type="video/mp4">
+                    <source src="../video/solo.ogv" type="video/ogv">
+                    <source src="../video/StudioWestFast.webm" type="video/webm">
+                </video>
+                <div class="hero-overlay">
+                    <div class="hero-title"></div>
+                    <h1 class="welcome-title">The Efficient <span class="blue">Unorthodox</span><br /> <span
+                            class="welcome-txt-size"> My <span class="yellow">story</span> about learning to <span
+                                class="yellow">code</span></span>
+                    </h1>
+                    <nav class="landing-page-nav" role="navigation">
+                        <btn class="nav-item">Home</btn>
+                        <btn class="nav-item">About Me</btn>
+                        <btn class="nav-item">Portfolio</btn>
+                    </nav>
+                </div>
+            </div>
         </section>
-        <section>
-            <div class="about"
-            About Me
+        </div>
+        <!--Hero Video, Overlay, Nav Section-->
+        <section class="about-container">
+            <div class="about-title-container">
+                <h3 class="title">Who I Am</h3>
+            </div>
+            <p class="about-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi labore, numquam asperiores nisi doloribus sit consectetur
+                eligendi aperiam aut ullam esse fugiat magnam laudantium tenetur,
+                nam perspiciatis sed quaerat facilis. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Aliquam est earum quis recusandae dolorum ipsa sed ipsum,
+                veniam dolores velit corrupti at aperiam aliquid, saepe facere maxime enim neque
+                alias.
+            </p>
+            <p class="about-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi labore, numquam asperiores nisi doloribus sit consectetur
+                eligendi aperiam aut ullam esse fugiat magnam laudantium tenetur,
+                nam perspiciatis sed quaerat facilis. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Aliquam est earum quis recusandae dolorum ipsa sed ipsum,
+                veniam dolores velit corrupti at aperiam aliquid, saepe facere maxime enim neque
+                alias.
+            </p>
+            <p class="about-text3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi labore, numquam asperiores nisi doloribus sit consectetur
+                eligendi aperiam aut ullam esse fugiat magnam laudantium tenetur,
+                nam perspiciatis sed quaerat facilis. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Aliquam est earum quis recusandae dolorum ipsa sed ipsum,
+                veniam dolores velit corrupti at aperiam aliquid, saepe facere maxime enim neque
+                alias.
+            </p>
         </section>
-        <section>
-            Section 3
+        <section class="projects">
+            <h3 class="project-title">Project Section Title</h3>
+            <div class="project1">
+                <h3 class="project-name">Thumbnail 1</h3>
+            </div>
+            <div class="project2">
+                <h3 class="project-name">Thumbnail 2</h3>
+            </div>
+            <div class="project3">
+                <h3 class="project-name">Thumbnail 3</h3>
+            </div>
+
         </section>
-        <section>
-            Project 3
-        </section>
-        <section>
-            Section 4
+        <section class="contact-me">
+            <div class="contact-container">
+                <div class="contact-title-container">
+                    <h3 class="contact-title">Get in Contact</h3>
+                </div>
+                <img class="emailImg" src="./images/thumbnailIcons/email.png">
+                <img class="githubImg" src="./images/thumbnailIcons/Github.png">
+                <img class="linkedinImg" src="./images/thumbnailIcons/linkedin.png">
+                <!-- <div class="linkedin"></div>
+            <div class="email"></div>
+            <div class="github"></div> -->
+            </div>
         </section>
     </main>
     <footer role="content-info">Footer</footer>
 </body>
+
 </html>
