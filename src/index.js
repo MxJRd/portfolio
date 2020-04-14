@@ -1,5 +1,7 @@
 console.log("Index.js Loaded");
 
-$(`.emailImg`).on('hover', function(){
-    
-}); 
+function(){
+    $(`.linkedin`).on('click', function(){
+        $(`.linkedin`).append(`<p>Click worked</p>`)
+    })
+}
